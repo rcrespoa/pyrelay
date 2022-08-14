@@ -1,4 +1,4 @@
-from pysub import Subscriber
+from pyrelay import Subscriber
 from events import NewUserCreated, UserDeleted
 import time
 from channels import user_updates_channel

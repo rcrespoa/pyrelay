@@ -1,4 +1,4 @@
-from pysub import Channel, ProcessingExecutor
+from pyrelay import Channel, ProcessingExecutor
 from events import NewUserCreated, UserDeleted
 
 user_updates_channel = Channel(

@@ -2,7 +2,7 @@
 SCRIPTPATH="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
 cd $SCRIPTPATH/
 exec 1>&2
-SRC_PATH=$SCRIPTPATH/../../pysub/pysub/
+SRC_PATH=$SCRIPTPATH/../../pyrelay/pyrelay/
 
 source $SCRIPTPATH/../env/bin/activate
 

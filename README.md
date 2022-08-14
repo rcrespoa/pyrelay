@@ -13,7 +13,7 @@ Micro framework for pub/sub decoupling with concurrency support.
 ### 0. Install
 
 ```bash
-pip install pysub
+pip install pyrelay
 ```
 
 ### 1. Define Event types and their properties
@@ -79,6 +79,6 @@ event = UserDeleted(user_id="21")
 # publish events with channel
 user_updates_channel.publish(event)
 
-# or publish events via pysub.publish
+# or publish events via pyrelay.publish
 publish(event2, channel_id="user_updates")
 ```

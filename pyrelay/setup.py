@@ -1,10 +1,9 @@
 import os
 import pathlib
 
+from pyrelay import __version__
 from setuptools import find_packages
 from setuptools import setup
-
-from pysub import __version__
 
 CURRENT_PATH = str(pathlib.Path(__file__).parent.resolve())
 README_FILE = os.path.join(CURRENT_PATH, "..", "README.md")
@@ -26,7 +25,7 @@ except ImportError:
         LONG_DESCRIPTION = f.read()
 
 setup(
-    name="pysub",
+    name="pyrelay",
     version=__version__,
     description="Lightweight Python publish/subscribe event bus",
     long_description=LONG_DESCRIPTION,
@@ -34,7 +33,7 @@ setup(
     author_email="rcrespoa@alumni.nd.edu",
     packages=find_packages("."),
     install_requires=DEPENDENCIES,
-    url="https://github.com/rcrespoa/pysub",
+    url="https://github.com/rcrespoa/pyrelay",
     keywords="pubsub message bus pub sub event",
     classifiers=[
         # How mature is this project? Common values are

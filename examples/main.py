@@ -1,5 +1,5 @@
 from events import NewUserCreated, UserDeleted
-from pysub import publish
+from pyrelay import publish
 import handlers  # imported for initializing the channels & handlers
 
 if __name__ == "__main__":

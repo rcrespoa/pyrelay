@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 import time
-from pysub import Subscriber, Channel, Event, ProcessingExecutor, publish
+from pyrelay import Subscriber, Channel, Event, ProcessingExecutor, publish
 
 
 # Events

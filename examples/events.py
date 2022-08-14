@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from pysub import Event
+from pyrelay import Event
 
 
 @dataclass(frozen=True)

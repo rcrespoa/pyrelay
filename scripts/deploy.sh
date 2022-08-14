@@ -1,5 +1,5 @@
 SCRIPTPATH="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
-VERSION_FILE=$SCRIPTPATH/../pysub/pysub/__init__.py
+VERSION_FILE=$SCRIPTPATH/../pyrelay/pyrelay/__init__.py
 
 # Run Quality Control
 # cd $SCRIPTPATH/..
