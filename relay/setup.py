@@ -1,7 +1,7 @@
 import os
 import pathlib
 
-from pyrelay import __version__
+from relay import __version__
 from setuptools import find_packages
 from setuptools import setup
 
@@ -25,7 +25,7 @@ except ImportError:
         LONG_DESCRIPTION = f.read()
 
 setup(
-    name="pyrelay",
+    name="msg-relay",
     version=__version__,
     description="Lightweight Python publish/subscribe event bus",
     long_description=LONG_DESCRIPTION,
@@ -33,7 +33,7 @@ setup(
     author_email="rcrespoa@alumni.nd.edu",
     packages=find_packages("."),
     install_requires=DEPENDENCIES,
-    url="https://github.com/rcrespoa/pyrelay",
+    url="https://github.com/rcrespoa/msgrelay",
     keywords="pubsub message bus pub sub event",
     classifiers=[
         # How mature is this project? Common values are

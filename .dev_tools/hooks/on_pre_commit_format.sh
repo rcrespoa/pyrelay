@@ -2,7 +2,7 @@
 SCRIPTPATH="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
 cd $SCRIPTPATH/
 
-SRC_PATH=$SCRIPTPATH/../../pyrelay/pyrelay/
+SRC_PATH=$SCRIPTPATH/../../relay/relay/
 LINE_LENGTH=150
 
 source $SCRIPTPATH/../env/bin/activate

@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from pyrelay import Event
+from relay import Event
 
 
 @dataclass(frozen=True)

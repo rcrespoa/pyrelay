@@ -1,4 +1,4 @@
-from pyrelay import Subscriber
+from relay import Subscriber
 from events import NewUserCreated, UserDeleted
 import time
 from channels import user_updates_channel

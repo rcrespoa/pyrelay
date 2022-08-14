@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 import time
-from pyrelay import Subscriber, Channel, Event, ProcessingExecutor, publish
+from relay import Subscriber, Channel, Event, ProcessingExecutor, publish
 
 
 # Events

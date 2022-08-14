@@ -1,5 +1,5 @@
 from events import NewUserCreated, UserDeleted
-from pyrelay import publish
+from relay import publish
 import handlers  # imported for initializing the channels & handlers
 
 if __name__ == "__main__":
