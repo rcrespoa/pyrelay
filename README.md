@@ -1,4 +1,4 @@
-# PySub
+# Relay
 
 Micro framework for pub/sub decoupling with concurrency support.
 
